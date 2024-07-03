@@ -1,42 +1,59 @@
 * {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: grey;
+  box-sizing: border-box;
+  background-color: gray;
+}
+body {
+  background-color: lightblue;
+  box-shadow: 0 0 12px -2px black;
+  max-width: 960px;
+  margin: auto;
 }
 .main {
-  text-align: center;
-  width: 45rem;
-  height: 45vw;
-  margin-left: 25rem;
-  white-space: pre 20rem;
+  min-height: 100vh;
+  padding: 85px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  display: block;
+  background-color: lightblue;
 }
-.nav-bar {
-  background-color: darkolivegreen;
-  width: 96vw;
-  display: inline-block;
-  padding: 2rem;
-  height: 45px;
-  vertical-align: top;
 
-  overflow: hidden;
+.nav-bar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  align-items: center;
+  background-color: lightblue;
+  box-shadow: 0 0 12px -2px black;
 }
 
 .nav-items {
-  color: black;
+  background-color: lightblue;
+  float: left;
+  margin: 20px;
   text-decoration: none;
-  margin: 2rem;
-  background-color: darkolivegreen;
+  color: black;
 }
 
 .nav-bar :hover {
-  color: black;
-  background-color: white;
-  padding: 2rem;
+  background-color: lightblue;
+  margin: 20px;
+  padding: 20px;
 }
 
 .name {
-  padding: 2rem;
   float: right;
-  background-color: darkolivegreen;
-  color: black;
+  vertical-align: top;
+  margin: 2rem;
+  background-color: lightblue;
+}
+#home-header {
+  background-color: lightblue;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  background-color: lightblue;
 }
