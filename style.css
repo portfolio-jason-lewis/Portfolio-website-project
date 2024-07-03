@@ -47,13 +47,20 @@ body {
   margin: 2rem;
   background-color: lightblue;
 }
-#home-header {
+.main-header {
   background-color: lightblue;
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
 }
-
+.sub-header {
+  background-color: lightblue;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: solid black 2px;
+  font-size: xx-large;
+}
 p {
   background-color: lightblue;
 }
