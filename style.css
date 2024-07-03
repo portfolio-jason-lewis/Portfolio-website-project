@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+}
+.main {
+  text-align: center;
+  width: 45rem;
+  height: 45vw;
+  margin-left: 25rem;
+  white-space: pre 20rem;
+}
+.nav-bar {
+  background-color: darkolivegreen;
+  width: 96vw;
+  display: inline-block;
+  padding: 2rem;
+  height: 45px;
+  vertical-align: top;
+
+  overflow: hidden;
+}
+
+.nav-items {
+  color: black;
+  text-decoration: none;
+  margin: 2rem;
+  background-color: darkolivegreen;
+}
+
+.nav-bar :hover {
+  color: black;
+  background-color: white;
+  padding: 2rem;
+}
+
+.name {
+  padding: 2rem;
+  float: right;
+  background-color: darkolivegreen;
+  color: black;
+}
