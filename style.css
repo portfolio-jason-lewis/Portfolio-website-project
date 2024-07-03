@@ -58,8 +58,16 @@ body {
   font-weight: bold;
   margin-top: 20px;
   padding: 20px;
-  border-top: solid black 2px;
   font-size: xx-large;
+}
+
+.sub-header-about {
+  background-color: lightblue;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: xx-large;
+  border-top: solid black 2px;
 }
 p {
   background-color: lightblue;
