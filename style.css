@@ -10,6 +10,9 @@ body {
   max-width: 960px;
   margin: auto;
 }
+.br {
+  background-color: lightblue;
+}
 .main {
   min-height: 100vh;
   padding: 85px 24px 96px;
@@ -25,12 +28,13 @@ body {
   align-items: center;
   background-color: lightblue;
   box-shadow: 0 0 12px -2px black;
+  max-height: 5rem;
 }
 
 .nav-items {
   background-color: lightblue;
   float: left;
-  margin: 20px;
+  margin: 15px;
   text-decoration: none;
   color: black;
 }
@@ -38,13 +42,15 @@ body {
 .nav-bar :hover {
   background-color: lightblue;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .name {
   float: right;
   vertical-align: top;
-  margin: 2rem;
+  padding-top: 17px;
+  padding-right: 17px;
+  font-weight: bolder;
   background-color: lightblue;
 }
 .main-header {
@@ -71,4 +77,17 @@ body {
 }
 p {
   background-color: lightblue;
+}
+#jason {
+  float: right;
+  box-shadow: 0 0 12px -2px black;
+  margin-top: 3rem;
+  height: 440px;
+  width: 340px;
+  margin-left: 10px;
+}
+#qoute {
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
 }
