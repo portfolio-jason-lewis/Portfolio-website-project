@@ -91,3 +91,12 @@ p {
   font-size: large;
   font-weight: bold;
 }
+
+.about-photos {
+  float: right;
+  box-shadow: 0 0 12px -2px black;
+  height: 150px;
+  width: 200px;
+  image-rendering: optimizeQuality;
+  margin-right: 6px;
+}
