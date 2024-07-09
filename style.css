@@ -100,3 +100,21 @@ p {
   image-rendering: optimizeQuality;
   margin-right: 6px;
 }
+
+.port-photos {
+  margin: 15px;
+  image-rendering: optimizeQuality;
+  height: 200px;
+  width: 300px;
+}
+.project {
+  box-shadow: 0px 0px 10px -3px black;
+  background-color: lightblue;
+  height: 350px;
+  margin: 15px;
+}
+
+#second-project {
+  float: right;
+  margin: 10px;
+}
