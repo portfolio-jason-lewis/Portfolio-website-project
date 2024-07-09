@@ -52,6 +52,8 @@ body {
   padding-right: 17px;
   font-weight: bolder;
   background-color: lightblue;
+  text-decoration: none;
+  color: black;
 }
 .main-header {
   background-color: lightblue;
@@ -117,4 +119,58 @@ p {
 #second-project {
   float: right;
   margin: 10px;
+}
+
+#linkedin-index {
+  height: 30px;
+  margin-right: 8px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#linkedin-about {
+  height: 30px;
+  margin-right: 8px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#linkedin-Portfolio {
+  height: 30px;
+  margin-right: 8px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+}
+#github-index {
+  height: 30px;
+  margin-right: 8px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+  float: right;
+  margin-top: 17px;
+  margin-right: 15px;
+}
+
+#github-about {
+  height: 30px;
+  margin-right: 8px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+  float: right;
+  margin-top: 17px;
+  margin-right: 15px;
+}
+
+#github-portfolio {
+  height: 30px;
+  margin-right: 8px;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+  float: right;
+  margin-top: 17px;
+  margin-right: 15px;
 }
