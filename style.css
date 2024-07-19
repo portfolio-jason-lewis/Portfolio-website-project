@@ -187,3 +187,19 @@ p {
   margin-right: 15px;
 }
 /* end of style of portfolio page only */
+
+/* syle for form page */
+.form {
+  background-color: lightblue;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-item {
+  background-color: lightblue;
+}
+
+/* end of style for form page */
