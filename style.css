@@ -5,6 +5,9 @@
   box-sizing: border-box;
   background-color: gray;
 }
+a {
+  background-color: lightblue;
+}
 body {
   background-color: lightblue;
   box-shadow: 0 0 12px -2px black;
@@ -22,27 +25,31 @@ body {
 }
 
 .nav-bar {
+  display: flex;
   position: fixed;
-  right: 0;
-  left: 0;
-  align-items: center;
+  right: 0px;
+  left: 0px;
   background-color: lightblue;
   box-shadow: 0 0 12px -2px black;
   max-height: 5rem;
+  justify-content: space-evenly;
 }
 
+.nav-bar a:nth-child(5) {
+  margin-left: auto;
+}
 .nav-items {
   background-color: lightblue;
-  float: left;
   margin: 15px;
   text-decoration: none;
   color: black;
+  padding: 0px;
 }
 
 .nav-bar :hover {
   background-color: lightblue;
-  margin: 20px;
-  padding: 10px;
+  margin: 16px;
+  padding: 0px;
 }
 
 .main-header {
@@ -66,7 +73,6 @@ p {
 
 /* style for index page only */
 .name {
-  float: right;
   vertical-align: top;
   padding-top: 17px;
   padding-right: 17px;
@@ -103,7 +109,6 @@ p {
 
 #linkedin-index {
   height: 30px;
-  margin-right: 8px;
   padding: 0px;
   margin: 0px;
 }
@@ -216,4 +221,15 @@ p {
 #Submit {
   margin: 40px;
 }
+#github-form {
+  height: 30px;
+  background-color: lightblue;
+  margin-top: 17px;
+  margin-right: 10px;
+}
 /* end of style for form page */
+@media (max-width: 490px) {
+  #github-form {
+    top: auto;
+  }
+}
